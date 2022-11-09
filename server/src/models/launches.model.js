@@ -14,8 +14,6 @@ const launch  = {
 }
 
 launches.set(launch.flightNumber, launch);
-console.log("1"+launch);
-console.log(launches);
 function existsLaunchWithId(launchId){
     return launches.has(launchId);
 }
